@@ -11,4 +11,4 @@ La API permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) pa
 
 - **Practicar revisiones de código (Code Review)**: Este proyecto simula un entorno colaborativo donde se puede crear un Pull Request (PR) para mejorar la organización del código y revisarlo en equipo.
 - **Aplicar mejores prácticas en Spring Boot**: La estructura inicial está simplificada, y las mejoras se pueden proponer a través de la adición de servicios, interfaces y manejo adecuado de excepciones.
-
+s
