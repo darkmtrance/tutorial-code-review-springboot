@@ -7,11 +7,19 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Product {
-
+    /**
+     * ID del producto.
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    /**
+    * Nombre del producto.
+    */
     private String name;
+    /**
+    * Precio del producto.
+    */
     private Double price;
 
     public Product() {
