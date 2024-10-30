@@ -9,9 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProductApplication {
 	
-	// Constructor privado para evitar instanciación
-	private ProductApplication() {}
-
 	/**
 	 * Método principal que inicia la aplicación Spring Boot.
 	 *
