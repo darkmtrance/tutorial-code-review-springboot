@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.matomaylla.product.Entity.Product;
 import com.matomaylla.product.Repository.ProductRepository;
+import com.matomaylla.product.Service.ProductService;
 
 import java.util.List;
 
@@ -25,13 +26,16 @@ public class ProductController {
     @Autowired
     private ProductRepository productRepository;
 
+    @Autowired
+    private ProductService productService;
+
     /**
      * Obtiene todos los productos.
      * @return lista de productos
      */
     @GetMapping
     public List<Product> getAllProducts() {
-        return productRepository.findAll();
+        return productService.getAllProducts();
     }
 
     @GetMapping("/{id}")
